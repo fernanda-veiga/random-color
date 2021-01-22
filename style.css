@@ -2,7 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: monospace;
 }
+
+/*BACKGROUND COLOR*/
 
 #color {
     height: 100vh;
@@ -13,7 +16,25 @@
     align-items: center;
 }
 
+/*HEX CODE*/
+
 #hex-code {
     background-color: black;
-
+    color: white;
 }
+
+/*BUTTON STYLE*/
+
+#button {
+    background-color: rgba(0,0,0,0);
+    border: solid black 2px;
+    color: black;
+}
+
+#button:hover {
+    background-color: rgba(0,0,0,1);
+    color: white;
+}
+
+
+
