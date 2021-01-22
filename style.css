@@ -20,6 +20,7 @@
 
 #hex-code {
     background-color: black;
+    border: solid black 2px;
     color: white;
 }
 
@@ -29,12 +30,15 @@
     background-color: rgba(0,0,0,0);
     border: solid black 2px;
     color: black;
+    outline: none;
+    transition: 0.3s;
 }
 
 #button:hover {
     background-color: rgba(0,0,0,1);
     color: white;
 }
+
 
 
 
