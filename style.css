@@ -10,8 +10,9 @@
 #color {
     height: 100vh;
     width: 100vw;
-    background-color: aquamarine;
+    background-color: white;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -22,6 +23,10 @@
     background-color: black;
     border: solid black 2px;
     color: white;
+    font-size: 45px;
+    margin: 40px 0;
+    padding: 10px;
+    border-radius: 8px;
 }
 
 /*BUTTON STYLE*/
@@ -30,15 +35,14 @@
     background-color: rgba(0,0,0,0);
     border: solid black 2px;
     color: black;
+    font-size: 20px;
+    padding: 10px;
     outline: none;
     transition: 0.3s;
+    border-radius: 8px;
 }
 
 #button:hover {
     background-color: rgba(0,0,0,1);
     color: white;
 }
-
-
-
-
