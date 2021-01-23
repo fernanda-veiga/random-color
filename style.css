@@ -47,3 +47,20 @@
     color: white;
     cursor: pointer;
 }
+
+/*RESPONSIVE DESIGN*/
+@media (max-width: 600px) {
+    #hex-code {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 400px) {
+    #hex-code {
+        font-size: 20px;
+    }
+
+    #button {
+        font-size: 12px;
+    }
+}
