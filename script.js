@@ -1,8 +1,8 @@
 //SELECTORS
 
-//const color = document.getElementById('color');
-//const text = document.getElementById('hex-code-text');
-//const button = document.getElementById('button');
+const color = document.getElementById('color');
+const text = document.getElementById('hex-code-text');
+const button = document.getElementById('button');
 
 
 
@@ -18,12 +18,12 @@ function hexCodeMaker() {
     }
 
     hexCode = "#" + hexCode;
-    document.getElementById('hex-code-text').innerHTML = "HEX Code: " + hexCode;
-    document.getElementById('color').style.backgroundColor = hexCode;
+    text.innerHTML = "HEX Code: " + hexCode;
+    color.style.backgroundColor = hexCode;
 
     return hexCode;
 }
 
 //EVENT LISTENERS
 
-document.getElementById('button').addEventListener("click", hexCodeMaker);
+button.addEventListener("click", hexCodeMaker);
