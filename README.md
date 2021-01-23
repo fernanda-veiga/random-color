@@ -1,0 +1,1 @@
+This project is a random color picker website. In the website, there is a button that, when clicked, it generates a hex number randomly. Then, the generated hex number is used to change the background color and the hex code is displayed on the screen.
